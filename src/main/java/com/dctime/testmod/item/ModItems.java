@@ -16,6 +16,9 @@ public class ModItems
     public static final RegistryObject<Item> WUMIUM_INGOT = ITEMS.register("wumium_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> WUMIUM_OXIDE = ITEMS.register("wumium_oxide",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);
