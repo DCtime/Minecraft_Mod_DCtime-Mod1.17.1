@@ -14,10 +14,10 @@ public class ModItems
             DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
     public static final RegistryObject<Item> WUMIUM_INGOT = ITEMS.register("wumium_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.test_TAB)));
 
     public static final RegistryObject<Item> WUMIUM_OXIDE = ITEMS.register("wumium_oxide",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.test_TAB)));
 
     public static void register(IEventBus eventBus)
     {

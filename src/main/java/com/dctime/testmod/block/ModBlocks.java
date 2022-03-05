@@ -1,6 +1,7 @@
 package com.dctime.testmod.block;
 
 import com.dctime.testmod.TestMod;
+import com.dctime.testmod.item.ModCreativeModeTab;
 import com.dctime.testmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -32,7 +33,7 @@ public class ModBlocks
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block)
     {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+                new Item.Properties().tab(ModCreativeModeTab.test_TAB)));
     }
 
     public static void register(IEventBus eventBus)

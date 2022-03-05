@@ -2,5 +2,7 @@
   "item.testmod.wumium_ingot": "Wumium Ingot",
   "item.testmod.wumium_oxide": "Wumium Oxide",
 
-  "block.testmod.wumium_ore": "Wumium Ore"
+  "block.testmod.wumium_ore": "Wumium Ore",
+
+  "itemGroup.testModTab": "Test Mod"
 }
