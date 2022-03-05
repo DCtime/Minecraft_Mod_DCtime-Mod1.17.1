@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#":{
+      "item": "testmod:wumium_oxide"
+    }
+  },
+  "result": {
+    "item": "testmod:wumium_ingot",
+    "count": 2
+  }
+}

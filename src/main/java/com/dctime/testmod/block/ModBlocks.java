@@ -22,7 +22,7 @@ public class ModBlocks
             DeferredRegister.create(ForgeRegistries.BLOCKS, TestMod.MOD_ID);
 
     public static final RegistryObject<Block> WUMIUM_ORE = registerBlock("wumium_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(12f)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(12f).requiresCorrectToolForDrops()));
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
