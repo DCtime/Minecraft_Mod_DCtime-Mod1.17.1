@@ -1,6 +1,6 @@
 package com.dctime.testmod.item;
 
-import com.dctime.testmod.TextMod;
+import com.dctime.testmod.TestMod;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModItems
 {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, TextMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
     public static final RegistryObject<Item> WUMIUM_INGOT = ITEMS.register("wumium_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
